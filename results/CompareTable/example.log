@@ -1,0 +1,77 @@
+% python3 results/CompareTable/print.py
+****** Formate ******
+expName_list
+isSecure_list
+time_list
+
+
+
+****** Sodor ******
+['sandbox_2copy_sodor2' 'ct_2copy_sodor2' 'sandbox_4copy_sodor2'
+ 'ct_4copy_sodor2']
+[ 1  1 -1 -1]
+[ 568.1  11.5 -1.0 -1.0]
+
+
+
+****** SimpleOOO - 2copy - Sandbox ******
+['sandbox_2copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_OPTMem'
+ 'sandbox_2copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_PSTT_OPTMem'
+ 'sandbox_2copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_PSTT_USESPEC_OPTMem'
+ 'sandbox_2copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_PDOM_ALLSPEC_OPTMem'
+ 'sandbox_2copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_PDOM_OPTMem'
+ 'sandbox_2copy_RF4_MEMI16_MEMD4_ROB8_CACHE1_PDOM_MISSONLY_OPTMem']
+[0 1 1 1 1 0]
+[ 0.5  1251.9  7750.8  444.9  3492.4  226.4]
+
+
+
+****** SimpleOOO - 2copy - ConstantTime ******
+['ct_2copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_OPTMem'
+ 'ct_2copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_PSTT_OPTMem'
+ 'ct_2copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_PSTT_USESPEC_OPTMem'
+ 'ct_2copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_PDOM_ALLSPEC_OPTMem'
+ 'ct_2copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_PDOM_OPTMem'
+ 'ct_2copy_RF4_MEMI16_MEMD4_ROB4_CACHE1_PDOM_MISSONLY_OPTMem']
+[0 0 0 1 1 0]
+[ 0.1  0.2  0.1  189.1  780.5  94.4]
+
+
+
+****** SimpleOOO - 4copy - Sandbox ******
+['sandbox_4copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_OPTMem'
+ 'sandbox_4copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_PSTT_OPTMem'
+ 'sandbox_4copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_PSTT_USESPEC_OPTMem'
+ 'sandbox_4copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_PDOM_ALLSPEC_OPTMem'
+ 'sandbox_4copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_PDOM_OPTMem'
+ 'sandbox_4copy_RF4_MEMI16_MEMD4_ROB8_CACHE1_PDOM_MISSONLY_OPTMem']
+[ 0 -1 -1 -1 -1  0]
+[ 0.2 -1.0 -1.0 -1.0 -1.0  605.9]
+
+
+
+****** SimpleOOO - 4copy - ConstantTime ******
+['ct_4copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_OPTMem'
+ 'ct_4copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_PSTT_OPTMem'
+ 'ct_4copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_PSTT_USESPEC_OPTMem'
+ 'ct_4copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_PDOM_ALLSPEC_OPTMem'
+ 'ct_4copy_RF4_MEMI16_MEMD4_ROB4_CACHE0_PDOM_OPTMem'
+ 'ct_4copy_RF4_MEMI16_MEMD4_ROB4_CACHE1_PDOM_MISSONLY_OPTMem']
+[ 0  0  0 -1 -1  0]
+[ 0.3  0.1  0.2 -1.0 -1.0  558.5]
+
+
+
+****** Ridecore ******
+['sandbox_2copy_ridecore' 'ct_2copy_ridecore' 'sandbox_4copy_ridecore'
+ 'ct_4copy_ridecore']
+[0 0 0 0]
+[ 807.5  88.6  259.9  75.5]
+
+
+
+****** Boom ******
+['sandbox_2copy_boom' 'ct_2copy_boom']
+[0 0]
+[ 4244.2  2164.7]
+%

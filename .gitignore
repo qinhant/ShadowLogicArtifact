@@ -1,0 +1,11 @@
+
+
+/.vagrant
+/build
+.DS_Store
+/jgproject
+*jgproject*
+*jg_myjdb*
+__pycache__
+/.vscode
+

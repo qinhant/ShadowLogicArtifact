@@ -1,0 +1,10 @@
+copy1.frontend.tlb.sectored_entries_0_0_tag 27'h2
+copy2.frontend.tlb.sectored_entries_0_0_tag 27'h2
+copy1.frontend.tlb.sectored_entries_0_0_valid_0 1
+copy2.frontend.tlb.sectored_entries_0_0_valid_0 1
+copy1.lsu.dtlb.sectored_entries_0_valid_0       1
+copy2.lsu.dtlb.sectored_entries_0_valid_0       1
+
+
+
+
