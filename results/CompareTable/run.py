@@ -110,7 +110,7 @@ cmd_list += [ \
 
 
 
-## PART3: Ridecore
+## PART4: BOOM
 expName_list += ["sandbox_2copy_boom", "ct_2copy_boom"]
 logName_list += [ \
   "terminal_sandbox_2copy_boom.log", \

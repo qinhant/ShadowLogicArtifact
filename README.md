@@ -13,8 +13,8 @@ The code to reproduce the figures and tables are under `results`. Please read th
 - SimpleOoO is an in-house simple Out-of-Order processor with various spectre defenses implemented.
 - The source code can be found under `src/simpleooo`. By setting macros in `src/simpleooo/param.v`, various spectre defenses can be enabled. It includes the code for both baseline and optimized schemes.
 - `src/simpleooo_1cycle` contains ISA machine (1-cycle version) of SimpleOoO, which will be used in the baseline scheme.
-- To reproduce the result in Table 2 and 3, run `python3 verification/run_CompareTable.py` will print out commonds you need to execute to generate all data points. You can collect the timing information from the \*.log files.
-- To reproduce the result in Figure 6, run `python3 verification/run_ScalabilityFigure.py` will print out commonds you need to execute to generate all data points. Put the collected timing information into `plot/Figure6.py` and then you can re-plot Figure 6.
+- To reproduce the result in Table 2 and 3, run `python3 results/CompareTable/run.py` will print out commonds you need to execute to generate all data points. You can collect the timing information from the \*.log files.
+- To reproduce the result in Figure 6, run `python3 results/ScalabilityFigure/run.py` will print out commonds you need to execute to generate all data points. Put the collected timing information into `results/ScalabilityFigure/plot.py` and then you can re-plot Figure 6.
 
 
 ### Sodor
@@ -30,7 +30,7 @@ The code to reproduce the figures and tables are under `results`. Please read th
 - `src/ridecore_1cycle` contains ISA machine (1-cycle version) of Ridecore, which will be used in the baseline scheme.
 - The hardware parameters can be adjusted in `src/ridecore/constants.vh` (for ridecore) and `src/ridecore_1cycle/param.v` (for ridecore-1cycle).
 - For verification, e.g., the two-copy (optimized) verification scheme under constant-time contract, run `jaspergold verification/verify_2_copy_ct_ridecore.tcl`.
-- Similarly, to run the four-copy (baseline) verification scheme under sandboxing contract, run `jaspergold verification/verify_4_copy_sandbox_sodor2.tcl`.
+- Similarly, to run the four-copy (baseline) verification scheme under sandboxing contract, run `jaspergold verification/verify_4_copy_sandbox_ridecore.tcl`.
 
 ### BOOM
 - [BOOM](https://boom-core.org) is an open-source out-of-order processor that implements RV64GC.
